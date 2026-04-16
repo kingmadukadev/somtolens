@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'polysanstrial', sans-serif;
+}
+
+/* video {
+  width: auto !important;
+  height: auto !important;
+  max-width: min(100%, 90vw) !important;
+  max-height: ;
+} */
+
+
+.footer-css {
+  background: linear-gradient(#212121 0%, #000 100%);
+}
+
+
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+
+
+
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-median.otf') format('openType');
+}
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-medianwide.otf') format('openType');
+}
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-neutral\ \(1\).otf') format('openType');
+}
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-neutralmono.otf') format('openType');
+}
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-neutralwide.otf') format('openType');
+}
+@font-face {
+  font-family: 'polysanstrial';
+  src: url('./fonts/polysanstrial-slimmono.otf') format('openType');
+}
+
+.font-polyslimmono {
+  font-family: 'polysanstrial-slimmono', monospace;
+}
+.font-polyneutralmono {
+  font-family: 'polysanstrial-neutralmono', monospace;
+}
+.font-polymedianwide {
+  font-family: 'polysanstrial-medianwide', sans-serif;
+}
+.font-polymedian {
+  font-family: 'polysanstrial-median', sans-serif;
+}
+.font-polyneutral {
+  font-family: 'polysanstrial-neutral', sans-serif;
+}
