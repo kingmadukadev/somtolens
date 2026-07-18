@@ -20,7 +20,6 @@ import weddingCover6 from '../images/weddingcover6.png';
 import apartmentCover1 from '../images/apartmentcover1.png';
 import apartmentCover2 from '../images/apartmentcover2.png'
 import behindCover1 from '../images/behindcover1.png';
-import behind1 from '../videos/behind1.MOV';
 import fashion1 from '../videos/fashion1.MOV';
 import fashion2 from '../videos/fashion2.MOV';
 import fashionCover1 from '../images/fashioncover1.png';
@@ -48,11 +47,8 @@ const VIDEO_MAP = {
     {src: apartment1, poster: apartmentCover1, title: 'Krent'},
     {src: apartment2, poster: apartmentCover2, title: 'Krent-Val'},
   ],
-  behindTheScene: [
-    { src: behind1, poster: behindCover1, title: 'Behind the scene'}
-  ],
   wigbyfayy: [
-    {src: behind1, poster:behindCover1, title: 'Wig By Fayy'}
+    {src: apartment1, poster:apartmentCover1, title: 'Wig By Fayy'}
   ]
 };
 

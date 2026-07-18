@@ -1,15 +1,21 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import background from '../src/images/grid-layer (1).svg'
 import About from './links/About'
 import Features from './links/Features'
 import HowIWork from './links/HowIWork'
 import Pricing from './links/Pricing'
+import { useState } from 'react'
+import Loader from './Loader'
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
   return (
-    <BrowserRouter>
+    <div>
+      {loading ? (
+        <Loader onFinish={() => setLoading(false)} />
+      ): (
+        <BrowserRouter basename='/somtolens'>
       <section>
         
 
@@ -24,6 +30,8 @@ function App() {
         </Routes>
       </section>
     </BrowserRouter>
+      )}
+    </div>
   )
 }
 
