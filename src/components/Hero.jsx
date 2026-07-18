@@ -7,7 +7,7 @@ import gsap from "gsap"
 import heroImage from '../images/4c31743a-7d01-45af-a7b6-3f71b952b7be-removebg-preview.png'
 import { FiPlay } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
-// import videoReel from '../videos/watchreel.MP4'
+import videoReel from '../videos/watchreel.MP4'
 
 gsap.registerPlugin(SplitText);
 

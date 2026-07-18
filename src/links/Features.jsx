@@ -20,8 +20,6 @@ import weddingCover6 from '../images/weddingcover6.png';
 import apartmentCover1 from '../images/apartmentcover1.png';
 import apartmentCover2 from '../images/apartmentcover2.png'
 import behindCover1 from '../images/behindcover1.png';
-import fashion1 from '../videos/fashion1.MOV';
-import fashion2 from '../videos/fashion2.MOV';
 import fashionCover1 from '../images/fashioncover1.png';
 import fashionCover2 from '../images/fashioncover2.png';
 import cover from '../images/udesom3.JPG';
@@ -40,8 +38,6 @@ const VIDEO_MAP = {
   ],
   fashion: [
     { src: sommy, poster: cover, title: "Graduation" },
-    {src: fashion1, poster: fashionCover1, title: "3000style"},
-    {src: fashion2, poster: fashionCover2, title: "3000style Zip up"},
   ],
   apartment: [
     {src: apartment1, poster: apartmentCover1, title: 'Krent'},

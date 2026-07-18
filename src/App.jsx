@@ -18,9 +18,6 @@ function App() {
         <BrowserRouter basename='/somtolens'>
       <section>
         
-
-        
-        
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
