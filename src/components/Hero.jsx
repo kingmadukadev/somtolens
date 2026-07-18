@@ -89,7 +89,7 @@ const Hero = () => {
                     </div>
                 )}
                 <div className='translate-none rotate-none scale-none transform translate-x-0 translate-y-0 opacity-100'>
-                    <a target='_blank' href="#">
+                    <a target='_blank' href="wa.link/oz556h">
                         <button className='bg-transparent text-white font-polyneutralmono text-xs md:text-sm py-1.5! px-3! md:py-2! md:px-4! ring-1 ring-white rounded-lg hover:bg-white/10 transition-colors border border-[#FFFFFF] cursor-pointer'>
                             Contact
                         </button>
