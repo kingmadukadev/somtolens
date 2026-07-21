@@ -56,11 +56,11 @@ const Pricing = () => {
                     <h1>Video Production Pricing & Packages — Somto Lens</h1>
                     <p>Flexible pricing options to meet every creative need in Lagos, Nigeria.</p>
                     <h2>BASIC PACKAGE</h2>
-                    <p>₦50,000 | Perfect for quick, stylish highlights | 1-hour event coverage | 1 Highlight Video (30-60 secs) | 1 Outfit | Basic transitions and trending music | Delivery within 2–3 days</p>
+                    <p>₦150,000 | Perfect for quick, stylish highlights | 1-hour event coverage | 1 Highlight Video (30-60 secs) | 1 Outfit | Basic transitions and trending music | Delivery within 2–3 days</p>
                     <h2>STANDARD PACKAGE</h2>
-                    <p>₦80,000 | Ideal for personal celebrations or small events | Up to 2 hours coverage | 2 Edited Videos (each 30-90 secs) | Up to 2 outfit changes | Cinematic effects, smooth transitions, trend-based edits | Optional interview or message clips | Delivery within 3–5 days</p>
+                    <p>₦200,000 | Ideal for personal celebrations or small events | Up to 2 hours coverage | 2 Edited Videos (each 30-90 secs) | Up to 2 outfit changes | Cinematic effects, smooth transitions, trend-based edits | Optional interview or message clips | Delivery within 3–5 days</p>
                     <h2>PREMIUM PACKAGE</h2>
-                    <p>₦120,000 | For weddings, high-end birthdays, or executive moments | Up to 6 hours coverage | 3–4 Edited Videos (Mix of Reels, Cinematic Cuts & Recap) | Up to 3 outfit changes | Drone-style angles (using gimbal/tripod creatively) | Priority editing (Delivery in 2–3 days) | Personalized trending soundtrack | Optional: Behind-the-scenes (BTS) mini vlog</p>
+                    <p>₦500,000 | For weddings, high-end birthdays, or executive moments | Up to 6 hours coverage | 3–4 Edited Videos (Mix of Reels, Cinematic Cuts & Recap) | Up to 3 outfit changes | Drone-style angles (using gimbal/tripod creatively) | Priority editing (Delivery in 2–3 days) | Personalized trending soundtrack | Optional: Behind-the-scenes (BTS) mini vlog</p>
                     <h2>Bi-Yearly Package</h2>
                     <p>₦12,000,000 | 4 Production Days Per Month | 120 Videos in 6 Months. scalable content production.</p>
                     <h2>Custom Packages</h2>
