@@ -50,7 +50,7 @@ const Pricing = () => {
     <div className='relative w-full wrapper'>
         <div ref={sectionRef}  className='pricing-section relative z-20 w-full min-h-screen bg-black shadow-[0px_10px_40px_rgba(0,0,0,0.5)]'>
             <section className='min-h-dvh w-full relative bg-black text-white flex flex-col mb-5!'>
-                <script type='application/ld+json' dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"Somto Lens Video Production Packages","description":"Professional video production packages in Lagos, Nigeria including Per Video, Creator, Brand, and Bi-Yearly options.","brand":{"@type":"Brand","name":"Somto Lens"},"offers":{"@type":"AggregateOffer","lowPrice":"400000","highPrice":"12000000","priceCurrency":"NGN","offerCount":"4","offers":[{"@type":"Offer","name":"Per Video Package","price":"400000","priceCurrency":"NGN"},{"@type":"Offer","name":"Creator Package","price":"400000","priceCurrency":"NGN"},{"@type":"Offer","name":"Brand Package","price":"4000000","priceCurrency":"NGN"},{"@type":"Offer","name":"Bi-Yearly Package","price":"12000000","priceCurrency":"NGN"}]}}) }} />
+                <script type='application/ld+json' dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"Somto Lens Video Production Packages","description":"Professional video production packages in Lagos, Nigeria including Per Video, Creator, Brand, and Bi-Yearly options.","brand":{"@type":"Brand","name":"Somto Lens"},"offers":{"@type":"AggregateOffer","lowPrice":"150000","highPrice":"12000000","priceCurrency":"NGN","offerCount":"4","offers":[{"@type":"Offer","name":"Per Video Package","price":"400000","priceCurrency":"NGN"},{"@type":"Offer","name":"Creator Package","price":"400000","priceCurrency":"NGN"},{"@type":"Offer","name":"Brand Package","price":"4000000","priceCurrency":"NGN"},{"@type":"Offer","name":"Bi-Yearly Package","price":"12000000","priceCurrency":"NGN"}]}}) }} />
                 <Navbar />
                 <div className='sr-only'>
                     <h1>Video Production Pricing & Packages — Somto Lens</h1>
@@ -95,7 +95,7 @@ const Pricing = () => {
                                 </div>
                             </div>
                             <div className='bg-[#111] border border-[#222] border-t-0 p-6! flex flex-col items-center gap-13 rounded-b-sm h-full hover:border-[#444] transition-colors relative z-10'>
-                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦50,000</p>
+                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦150,000</p>
                                 <div className='flex flex-col w-full'>
                                     <div className='flex flex-col items-center w-full border-t border-[#D0D0D0] '>
                                         <p className='font-polyslimmono text-[12px] md:text-xs font-semibold text-white uppercase text-center tracking-[-0.24px] leading-relaxed py-2 px-2'>
@@ -142,7 +142,7 @@ const Pricing = () => {
                                 </div>
                             </div>
                             <div className='bg-[#111] border border-[#222] border-t-0 p-6! flex flex-col items-center gap-13 rounded-b-sm h-full hover:border-[#444] transition-colors relative z-10'>
-                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦80,000</p>
+                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦200,000</p>
                                 <div className='flex flex-col w-full'>
                                     <div className='flex flex-col items-center w-full border-t border-[#D0D0D0] '>
                                         <p className='font-polyslimmono text-[12px] md:text-xs font-semibold text-white uppercase text-center tracking-[-0.24px] leading-relaxed py-2 px-2'>
@@ -194,7 +194,7 @@ const Pricing = () => {
                                 </div>
                             </div>
                             <div className='bg-[#111] border border-[#222] border-t-0 p-6! flex flex-col items-center gap-13 rounded-b-sm h-full hover:border-[#444] transition-colors relative z-10'>
-                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦120,000</p>
+                                <p className='font-polybulkywide text-2xl md:text-3xl lg:text-[28px] mt-5! text-white xl:tracking-[-0.56px]'>₦500,000</p>
                                 <div className='flex flex-col w-full'>
                                     <div className='flex flex-col items-center w-full border-t border-[#D0D0D0] '>
                                         <p className='font-polyslimmono text-[12px] md:text-xs font-semibold text-white uppercase text-center tracking-[-0.24px] leading-relaxed py-2 px-2'>
