@@ -8,6 +8,7 @@ import somto from '../images/udesom.jpg'
 import udesomto from '../images/udesom2.jpg'
 import udesomto2 from '../images/udesom3.jpg'
 import Navbar from '../components/Navbar'
+import { Link } from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -287,10 +288,10 @@ const About = () => {
         </div>
         <footer className='w-full pt-8! md:pt-6.75! footer-css overflow-hidden text-[#E6E6E6]'>
             <nav className='flex flex-wrap md:flex-nowrap items-center justify-between gap-3 md:gap-0 px-4! md:px-17! w-full max-w-360 mx-auto! overflow-hidden'>
-                <a href="/" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>Home</a>
-                <a href="/about" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>About</a>
-                <a href="/how-i-work" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>How i work</a>
-                <a href="/whatsapp-link" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>Contact</a>
+                <Link to="/" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>Home</Link>
+                <Link to="/about" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>About</Link>
+                <Link to="/how-i-work" className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>How i work</Link>
+                <a href="https://wa.link/oz556h" rel='noopener noreferrer' className='flex-1 f-links md:flex-none text-center py-2! px-3! md:py-3! md:px-4! bg-[#FFFFFF0F] rounded md:rounded-sm text-xs md:text-[28px] font-polyneutralmono hover:bg-[#FFFFFF1A] transition-colors whitespace-nowrap'>Contact</a>
             </nav>
             <div className='f-links-2 flex flex-col md:flex-row items-start md:items-center justify-between pt-10! md:pt-39.25! px-4! md:px-17! pb-4! md:pb-0! gap-4 md:gap-0 w-full max-w-360 mx-auto!'>
                 <a target='_blank' rel='noopener noreferrer' className='font-polyslimmono text-sm md:text-[22px] hover:text-white transition-colors' href="">Instagram</a>
